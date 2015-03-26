@@ -6,13 +6,18 @@
 //  Copyright (c) 2015 Coeus. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LoginScreenViewController.h"
 
-@interface ViewController ()
+@interface LoginScreenViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LoginScreenViewController
+- (IBAction)loginClicked:(id)sender {
+    
+    [self performSegueWithIdentifier:@"showDetail" sender:self];
+    
+}
 
 - (void)viewDidLoad
 {
