@@ -7,6 +7,7 @@
 //
 
 #import "LoginScreenViewController.h"
+#import "OrderService.h"
 
 @interface LoginScreenViewController ()
 
@@ -14,6 +15,12 @@
 
 @implementation LoginScreenViewController
 - (IBAction)loginClicked:(id)sender {
+    
+    [OrderService patoAcceptOrderWithCartId:@"" success:^(id data) {
+        
+    } failure:^(NSError *error) {
+        
+    }];
     
     [self performSegueWithIdentifier:@"showDetail" sender:self];
     

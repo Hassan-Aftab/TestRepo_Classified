@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8A655641AC57E9F003F559E /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A655611AC57E9F003F559E /* NetworkManager.m */; };
+		F8A655651AC57E9F003F559E /* OrderService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A655631AC57E9F003F559E /* OrderService.m */; };
 		F8AFD00D1AC3F3470042F110 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD00C1AC3F3470042F110 /* HomeScreenViewController.m */; };
 		F8AFD0111AC3F39A0042F110 /* MatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD0101AC3F39A0042F110 /* MatchesViewController.m */; };
 		F8AFD0141AC3F3B20042F110 /* NewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD0131AC3F3B20042F110 /* NewItemViewController.m */; };
@@ -14,7 +16,7 @@
 		F8AFD01A1AC3F3D40042F110 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD0191AC3F3D40042F110 /* ProfileViewController.m */; };
 		F8AFD01E1AC3F4580042F110 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD01D1AC3F4580042F110 /* UserService.m */; };
 		F8AFD0211AC3F46D0042F110 /* ProductService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD0201AC3F46D0042F110 /* ProductService.m */; };
-		F8AFD0241AC3F4800042F110 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD0231AC3F4800042F110 /* NetworkManager.m */; };
+		F8AFD02A1AC3F9FD0042F110 /* FacebookService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD0291AC3F9FD0042F110 /* FacebookService.m */; };
 		F8B5E3601AC2C0EA005D8B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5E35F1AC2C0EA005D8B04 /* Foundation.framework */; };
 		F8B5E3621AC2C0EA005D8B04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5E3611AC2C0EA005D8B04 /* CoreGraphics.framework */; };
 		F8B5E3641AC2C0EA005D8B04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5E3631AC2C0EA005D8B04 /* UIKit.framework */; };
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8A655601AC57E9F003F559E /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		F8A655611AC57E9F003F559E /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		F8A655621AC57E9F003F559E /* OrderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderService.h; sourceTree = "<group>"; };
+		F8A655631AC57E9F003F559E /* OrderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderService.m; sourceTree = "<group>"; };
 		F8AFD00B1AC3F3470042F110 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
 		F8AFD00C1AC3F3470042F110 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
 		F8AFD00F1AC3F39A0042F110 /* MatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchesViewController.h; sourceTree = "<group>"; };
@@ -56,8 +62,8 @@
 		F8AFD01D1AC3F4580042F110 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
 		F8AFD01F1AC3F46D0042F110 /* ProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductService.h; sourceTree = "<group>"; };
 		F8AFD0201AC3F46D0042F110 /* ProductService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductService.m; sourceTree = "<group>"; };
-		F8AFD0221AC3F4800042F110 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
-		F8AFD0231AC3F4800042F110 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		F8AFD0281AC3F9FD0042F110 /* FacebookService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookService.h; sourceTree = "<group>"; };
+		F8AFD0291AC3F9FD0042F110 /* FacebookService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookService.m; sourceTree = "<group>"; };
 		F8B5E35C1AC2C0EA005D8B04 /* ClassifiedAdsApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassifiedAdsApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B5E35F1AC2C0EA005D8B04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8B5E3611AC2C0EA005D8B04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,8 +135,12 @@
 				F8AFD01D1AC3F4580042F110 /* UserService.m */,
 				F8AFD01F1AC3F46D0042F110 /* ProductService.h */,
 				F8AFD0201AC3F46D0042F110 /* ProductService.m */,
-				F8AFD0221AC3F4800042F110 /* NetworkManager.h */,
-				F8AFD0231AC3F4800042F110 /* NetworkManager.m */,
+				F8A655601AC57E9F003F559E /* NetworkManager.h */,
+				F8A655611AC57E9F003F559E /* NetworkManager.m */,
+				F8A655621AC57E9F003F559E /* OrderService.h */,
+				F8A655631AC57E9F003F559E /* OrderService.m */,
+				F8AFD0281AC3F9FD0042F110 /* FacebookService.h */,
+				F8AFD0291AC3F9FD0042F110 /* FacebookService.m */,
 			);
 			name = ServiceManagers;
 			sourceTree = "<group>";
@@ -308,13 +318,15 @@
 				F8AFD0141AC3F3B20042F110 /* NewItemViewController.m in Sources */,
 				F8AFD0211AC3F46D0042F110 /* ProductService.m in Sources */,
 				F8B5E3761AC2C0EA005D8B04 /* LoginScreenViewController.m in Sources */,
-				F8AFD0241AC3F4800042F110 /* NetworkManager.m in Sources */,
 				F8AFD01A1AC3F3D40042F110 /* ProfileViewController.m in Sources */,
+				F8A655641AC57E9F003F559E /* NetworkManager.m in Sources */,
 				F8AFD00D1AC3F3470042F110 /* HomeScreenViewController.m in Sources */,
 				F8B5E3701AC2C0EA005D8B04 /* AppDelegate.m in Sources */,
 				F8AFD0171AC3F3C40042F110 /* ChatListViewController.m in Sources */,
 				F8B5E36C1AC2C0EA005D8B04 /* main.m in Sources */,
+				F8AFD02A1AC3F9FD0042F110 /* FacebookService.m in Sources */,
 				F8AFD01E1AC3F4580042F110 /* UserService.m in Sources */,
+				F8A655651AC57E9F003F559E /* OrderService.m in Sources */,
 				F8AFD0111AC3F39A0042F110 /* MatchesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
